@@ -29,6 +29,7 @@ code {
  padding: 6rem 2.8rem 0;
  /* justify-content: center; */
 border-radius: 10px;
+overflow-y:auto ;
 
 }
 
@@ -110,4 +111,60 @@ span{margin-left: -100px;}
   background-color: orange;
   color:red;
   font-weight: 800;
+}
+
+
+
+@media screen and (max-width:1024px){
+  .app{
+    width: 70%;
+    overflow-y:auto ;
+  } 
+  .button-add{
+    width: 70px;
+    padding:5px;
+  }
+  .task-input{
+    width: 350px;
+  }
+  .list{
+    width: 447px;
+  } 
+}
+
+@media screen and (max-width:640px){
+ 
+  .app{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    position: fixed;
+    border-radius: 0;
+    overflow-y:auto ;
+    margin-top:0% ;
+  } 
+  .button-add{
+    width: 70px;
+    padding:5px;
+    margin:5px 0 0 90px;
+  }
+  .task-input{
+    width: 300px;
+    margin-left:-20px;
+  }
+  .list{
+    width: 300px;
+    margin-left: -20px;
+  } 
+
+  .fas{
+    padding:0px;
+     /* margin: 0 1px; */
+    font-size: 15px;}
+    span{margin-left:180px;}
+    h1{
+      margin:-15% 34% 7%;
+    }
 }
