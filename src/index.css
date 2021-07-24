@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app{
+ height: 80vh;
+ width: 40%;
+ background: radial-gradient(circle, red 0%, orange 100%);
+ /* background-color: red; */
+ margin:50px auto;
+ padding: 6rem 2.8rem 0;
+ /* justify-content: center; */
+border-radius: 10px;
+
+}
+
+h1{
+  width: auto;
+  margin:-10% 40% 7%;
+  background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.icon{
+ padding: 2px; 
+  margin: 0 2px;
+  z-index: 1;
+}
+
+
+.form{
+  margin-bottom: 15px;
+}
+.task-input{
+  outline: none;
+  width: 350px;
+  padding:10px;
+  margin-right: 25px;
+  font-size: 15px;
+  color:#fff;
+  background-color: darkmagenta;
+  border: 1px solid lightgoldenrodyellow;
+  border-radius: 10px;
+  font-weight: 800;
+  border-color: blueviolet
+}
+
+
+.list{
+  background-color:lightgray;
+  margin-top: 5px;
+  width: 457px;
+  padding: 10px;
+  font-size:15px ;
+  border-radius: 10px;
+  border-color: blueviolet;
+  overflow: hide;
+  pointer-events: none;
+  color: darkmagenta;
+  font-weight: 800;
+}
+
+button{
+  
+  border-color: transparent;
+  background-color: transparent;
+}
+.fa-check-circle{
+  color: green;
+}
+
+.fa-edit{
+  color:orange;
+
+}
+.fa-trash{
+  color: red;
+}
+
+.fas{
+  font-size: 20px;
+}
+
+span{margin-left: -100px;}
+
+.button-add{
+  width: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: orange;
+  color:red;
+  font-weight: 800;
+}
